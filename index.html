@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Generador Script OLT Huawei</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body data-theme="dark">
+
+<div class="container">
+<div class="header">
+    <div>
+        <h1>Generador de Script GPON</h1>
+        <p class="subtitle">OLT Huawei – Activación de ONT</p>
+    </div>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+</div>
+
+    <label>OLT</label>
+    <select id="olt"></select>
+
+    <div class="grid">
+        <div>
+            <label>Frame</label>
+            <input type="text" id="frame" placeholder="Frame" oninput="validarFormulario()">
+        </div>
+        <div>
+            <label>Slot</label>
+            <input type="text" id="slot" placeholder="Slot" oninput="validarFormulario()">
+        </div>
+        <div>
+            <label>Puerto GPON</label>
+            <input type="text" id="port" placeholder="Puerto GPON" oninput="validarFormulario()">
+        </div>
+        <div>
+            <label>ONT-ID</label>
+            <input type="text" id="ont_id" placeholder="ONT-ID" oninput="validarFormulario()">
+        </div>
+    </div>
+
+
+    <label>Serial Number (SN)</label>
+    <input type="text" id="sn" placeholder="Ejemplo: 1234567890AB" oninput="validarFormulario()">
+
+    <label>Descripción del cliente</label>
+    <input type="text" id="descripcion" placeholder="Ejemplo: PATRICIA MERCEDES LUCERO GOMEZ F20196919 " oninput="validarFormulario()">
+
+    <label>Service-Port</label>
+    <input type="text" id="service_port" placeholder="Ejemplo: 6919" oninput="validarFormulario()">
+
+    <div class="actions">
+    <button id="btnGenerar" class="btn-primary" onclick="generarScript()" disabled>Generar Script</button>
+    <button class="btn-outline" onclick="limpiarFormulario()">Limpiar</button>
+    </div>
+
+
+    <div class="result-header">
+        <h2>Script generado</h2>
+        <button class="btn-secondary" onclick="copiarScript()">Copiar</button>
+    </div>
+
+    <textarea id="resultado" readonly></textarea>
+
+    <footer>
+        Uso interno ISP · No ejecuta comandos en la OLT
+    </footer>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
