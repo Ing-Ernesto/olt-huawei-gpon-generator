@@ -102,9 +102,6 @@ function generarScript() {
     }
 
     const script = `
-enable
-
-config
 
 interface gpon ${frame}/${slot}
 
@@ -226,3 +223,4 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.setAttribute("data-theme", savedTheme);
     actualizarIconoTema();
 });
+
