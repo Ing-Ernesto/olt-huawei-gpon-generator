@@ -17,10 +17,17 @@ const OLTS = {
         line_profile: "10",
         service_profile: "10"
     },
-    "OLT_JADAN": {
+    "OLT_NUEVO_JADAN VLAN_2139": {
         vlan: "2139",
         user_vlan: "101",
         gemport: "10",
+        line_profile: "10",
+        service_profile: "10"
+    },
+    "OLT_ANTIGUO_JADAN VLAN_2138":{
+        vlan: "2138",
+        user_vlan: "101",
+        gemport: "1",
         line_profile: "10",
         service_profile: "10"
     },
@@ -31,7 +38,7 @@ const OLTS = {
         line_profile: "10",
         service_profile: "10"
     },
-    "OLT_SAN_PEDRO": {
+    "OLT_SAN_PEDRO VLAN_10": {
         vlan: "10",
         user_vlan: "10",
         gemport: "12",
@@ -50,7 +57,7 @@ const OLTS = {
         user_vlan: "10",
         gemport: "10",
         line_profile: "90",
-        service_profile: "10"
+        service_profile: "10" //REVISADO HASTA EL NODO DE AZOGUES
     },
     "OLT_CAÑAR": {
         vlan: "526",
@@ -66,12 +73,26 @@ const OLTS = {
         line_profile: "10",
         service_profile: "10"
     },
-    "OLT_EL_PAN": {
+    "OLT_EL_PAN VLAN_110": {
         vlan: "110",
         user_vlan: "10",
         gemport: "10",
         line_profile: "10",
         service_profile: "10"
+    },
+    "OLT_EL_PAN VLAN_111": {
+        vlan: "111",
+        user_vlan: "10",
+        gemport: "10",
+        line_profile: "10",
+        service_profile: "10"
+    },
+    "OLT_DESCANSO": {
+        vlan:"111",
+        user_vlan:"10",
+        gemport:"10",
+        line_profile:"10",
+        service_profile:"10"
     }
 };
 
