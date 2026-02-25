@@ -88,7 +88,7 @@ const OLTS = {
         service_profile: "10"
     },
     "OLT_DESCANSO": {
-        vlan:"111",
+        vlan:"10",
         user_vlan:"10",
         gemport:"10",
         line_profile:"10",
