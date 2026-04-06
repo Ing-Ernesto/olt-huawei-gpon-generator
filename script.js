@@ -4,7 +4,7 @@
 
 const OLTS = {
     "OLT_BIBLIAN": {
-        vlan: "2138",
+        vlan: "2140",
         user_vlan: "10",
         gemport: "1",
         line_profile: "10",
