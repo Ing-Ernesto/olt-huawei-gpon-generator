@@ -55,9 +55,9 @@ const OLTS = {
     "OLT_AZOGUES": {
         vlan: "925",
         user_vlan: "10",
-        gemport: "10",
-        line_profile: "90",
-        service_profile: "10" //REVISADO HASTA EL NODO DE AZOGUES
+        gemport: "1",
+        line_profile: "30",
+        service_profile: "30"
     },
     "OLT_CAÑAR": {
         vlan: "526",
