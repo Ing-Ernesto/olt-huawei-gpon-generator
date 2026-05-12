@@ -93,6 +93,20 @@ const OLTS = {
         gemport:"10",
         line_profile:"10",
         service_profile:"10"
+    },
+    "OLT_PAUTE": {
+        vlan:"2200",
+        user_vlan:"10",
+        gemport:"1",
+        line_profile:"10",
+        service_profile:"10"
+    },
+    "OLT_VALLE": {
+        vlan:"2300",
+        user_vlan:"10",
+        gemport:"1",
+        line_profile:"10",
+        service_profile:"10"
     }
 };
 
