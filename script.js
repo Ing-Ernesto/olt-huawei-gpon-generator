@@ -38,8 +38,15 @@ const OLTS = {
         line_profile: "10",
         service_profile: "10"
     },
-    "OLT_SAN_PEDRO VLAN_10": {
+    "OLT_SAN_PEDRO VLAN_10": { //olt 2 10.11.105.2
         vlan: "10",
+        user_vlan: "10",
+        gemport: "1",
+        line_profile: "10",
+        service_profile: "10"
+    },
+    "OLT_SAN_PEDRO VLAN_504": { //olt 1 10.11.104.2
+        vlan: "504",
         user_vlan: "10",
         gemport: "12",
         line_profile: "12",
