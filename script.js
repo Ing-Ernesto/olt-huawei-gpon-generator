@@ -32,7 +32,7 @@ const OLTS = {
         service_profile: "10"
     },
     "OLT_CHUQUIPATA": {
-        vlan: "2138",
+        vlan: "2140",
         user_vlan: "10",
         gemport: "1",
         line_profile: "10",
