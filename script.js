@@ -60,7 +60,7 @@ const OLTS = {
         service_profile: "10"
     },
     "OLT_AZOGUES": {
-        vlan: "925",
+        vlan: "921",
         user_vlan: "10",
         gemport: "1",
         line_profile: "30",
